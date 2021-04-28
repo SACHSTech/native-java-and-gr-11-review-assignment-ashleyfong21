@@ -1,2 +1,44 @@
 package gr11review.part1;
 
+import java.io.*;
+import java.text.DecimalFormat;
+
+/**
+* A program that prints every odd number between 20 and 100, then prints 29 to 2 in decending order
+* @author: Ashley Fong
+* 
+*/
+
+public class Review4 {
+  public static DecimalFormat decimalFormat = new DecimalFormat("0.00");
+
+  public static void main(String[] args) throws IOException{
+		BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
+
+    int numItems;
+    int i;
+    double itemPrice; 
+    double subtotal = 0; 
+    double tax;
+    double total;
+
+    System.out.print("How many items do you want to buy? ");
+    numItems = Integer.parseInt(key.readLine());
+
+    for(i = 1; i <= numItems; i++){
+      System.out.print("Enter the price for item "+i+": ");
+      itemPrice = Double.parseDouble(key.readLine());
+
+      subtotal = subtotal + itemPrice; 
+
+    }
+
+    tax = subtotal * 0.13;
+    total = subtotal + tax;
+
+    System.out.println("Subtotal: $"+ decimalFormat.format(subtotal));
+    System.out.println("Tax: $"+ decimalFormat.format(tax));
+    System.out.println("Total: $"+ decimalFormat.format(total));
+
+  }
+}
