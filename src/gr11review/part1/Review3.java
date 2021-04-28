@@ -3,7 +3,7 @@ package gr11review.part1;
 import java.io.*;
 
 /**
-* 
+* A program that prints every odd number between 20 and 100, then prints 29 to 2 in decending order 
 * @author: Ashley Fong
 * 
 */
@@ -25,6 +25,6 @@ public class Review3 {
       System.out.println(i);
 
     }
-    
+
   }
 }
