@@ -4,7 +4,7 @@ import java.io.*;
 import java.text.DecimalFormat;
 
 /**
-* A program that prints every odd number between 20 and 100, then prints 29 to 2 in decending order
+* A program that asks the user how many items they would like to purchase. The user enters the prices of each item and the program prints the subtotal, tax,and total. 
 * @author: Ashley Fong
 * 
 */
