@@ -2,6 +2,12 @@ package gr11review.part1;
 
 import java.io.*;
 
+/** 
+* A program that calculates the day of the year given the month number and day of the month
+* @author: Ashley Fong
+* 
+*/
+
 public class Review1 { 
   public static void main(String[] args) throws IOException{
 		BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
@@ -21,57 +27,57 @@ public class Review1 {
       System.out.println(dayYear); 
     }
 
-    if(monthNum == 2){
+    else if(monthNum == 2){
       dayYear = 31 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 3){
+    else if(monthNum == 3){
       dayYear = 31 + 28 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 4){
+    else if(monthNum == 4){
       dayYear = 31 + 28 + 31 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 5){
+    else if(monthNum == 5){
       dayYear = 31 + 28 + 31 + 30 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 6){
+    else if(monthNum == 6){
       dayYear = 31 + 28 + 31 + 30 + 31 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 7){
+    else if(monthNum == 7){
       dayYear = 31 + 28 + 31 + 30 + 31 + 30 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 8){
+    else if(monthNum == 8){
       dayYear = 31 + 28 + 31 + 30 + 31 + 30 + 31 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 9){
+    else if(monthNum == 9){
       dayYear = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 10){
+    else if(monthNum == 10){
       dayYear = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 11){
+    else if(monthNum == 11){
       dayYear = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30 + dayNum;
       System.out.println(dayYear);
     }
 
-    if(monthNum == 12){
+    else if(monthNum == 12){
       dayYear = 31 + 28 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + 30 + 31 + dayNum;
       System.out.println(dayYear);
     }
