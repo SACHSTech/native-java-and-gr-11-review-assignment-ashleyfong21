@@ -3,16 +3,10 @@ package gr11review.part1;
 import java.io.*;
 
 /**
-*                                                                    
+* A program that simulates 1000 pulls of a slot machine, such that 3 random numbers (between 0 and 8) are generated for each pull. Outputs the total number times a triple (all 3 numbers equal) was pulled
 * @author: Ashley Fong
 * 
 */
-
-//for 1000 loop 
-
-//for 3 loop 
-
-//if all the #s are equal, triples++ 
 
 public class Review8 { 
   public static void main(String[] args) throws IOException{
