@@ -27,7 +27,7 @@ public class Review7 {
 
     //finds the length/number of characters in the sentence
     numChar = theSentence.length();
-    System.out.println(numChar); 
+    System.out.println("There are "+numChar+" characters in the sentence."); 
 
     //loops through the characters of the sentence
     for (i = 0; i < numChar; i++){
@@ -45,14 +45,17 @@ public class Review7 {
     }
     
     //prints number of a's and spaces 
-    System.out.println(letterA);
-    System.out.println(numSpaces);
+    System.out.println("There are "+numSpaces+" spaces in the sentence.");
+    System.out.println("There are "+letterA+" letter a in the sentence.");
 
     //takes every other character in the sentence to print a new one 
-    for(i = 1; i < numChar; i = i + 2){
-      character = theSentence.charAt(i);
-      System.out.print(character);
-    }
+    //for(i = 1; i < numChar; i = i + 2){
+      //character = theSentence.charAt(i);
+      //System.out.print(character);
+
+      System.out.println("----");
+
+    //}
 
   }
 }
