@@ -8,19 +8,27 @@ import java.io.*;
 * 
 */
 
-public class Review5 { 
+public class Review7 { 
   public static void main(String[] args) throws IOException{
 		BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
     String theSentence; 
+    String oddChar;
+    int i; 
     int numChar; 
     int numSpaces;
     int letterA;
-    int oddChar; 
-
+   
     System.out.println("Enter a sentence: ");
     theSentence = key.readLine();
-    System.out.println("")
+
+    numChar = theSentence.length();
+    System.out.println(numChar); 
+
+    for (i = 1; i <= numChar; i++){
+      
+    }
+    //System.out.println("")
 
   }
 }

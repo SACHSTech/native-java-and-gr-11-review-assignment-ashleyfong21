@@ -10,9 +10,8 @@ import java.text.DecimalFormat;
 */
 
 public class Review6 {
-  public static DecimalFormat decimalFormat = new DecimalFormat("0.00");
-
   public static void main(String[] args) throws IOException{
+    DecimalFormat decimalFormat = new DecimalFormat("0.00");
 		BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
     int i = 0; 
