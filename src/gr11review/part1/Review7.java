@@ -12,23 +12,47 @@ public class Review7 {
   public static void main(String[] args) throws IOException{
 		BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
 
+    //variables 
     String theSentence; 
     String oddChar;
+    char character; 
     int i; 
     int numChar; 
-    int numSpaces;
-    int letterA;
-   
+    int numSpaces = 0;
+    int letterA = 0;
+
+    //user inputs sentence 
     System.out.println("Enter a sentence: ");
     theSentence = key.readLine();
 
+    //finds the length/number of characters in the sentence
     numChar = theSentence.length();
     System.out.println(numChar); 
 
-    for (i = 1; i <= numChar; i++){
+    //loops through the characters of the sentence
+    for (i = 0; i < numChar; i++){
+      character = theSentence.charAt(i);
       
+      //finds number of spaces in the sentence 
+      if(character == ' '){
+        numSpaces++;
+      }
+
+      //finds number of letter a's in the sentence
+      if(character == 'a'){
+        letterA++;
+      }
     }
-    //System.out.println("")
+    
+    //prints number of a's and spaces 
+    System.out.println(letterA);
+    System.out.println(numSpaces);
+
+    //takes every other character in the sentence to print a new one 
+    for(i = 1; i < numChar; i = i + 2){
+      character = theSentence.charAt(i);
+      System.out.print(character);
+    }
 
   }
 }
