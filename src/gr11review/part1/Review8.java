@@ -32,7 +32,7 @@ public class Review8 {
 
       System.out.println("");
 
-      //checking if all the numbers in a pull are the simulates
+      //checking if all the numbers in a pull are the same
       //if yes, the number of triples increases
       if(slotMach[i][0] == slotMach[i][1] && slotMach[i][1] == slotMach[i][2]){
         numTriples++;
