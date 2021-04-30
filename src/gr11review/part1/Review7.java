@@ -3,7 +3,7 @@ package gr11review.part1;
 import java.io.*;
 
 /**
-* A program that asks the user for a yearly amount, annual compound interest rate, and target amount, and outputs the number of years it will take to surpass that amount. For compound interest, the interest rate is applied to the existing amount after each year.                                                                    
+* A program counts the number of characters, spaces, and letter a's in a sentence.
 * @author: Ashley Fong
 * 
 */
