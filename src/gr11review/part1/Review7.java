@@ -14,7 +14,7 @@ public class Review7 {
 
     //variables 
     String theSentence; 
-    String oddChar;
+    //String oddChar;
     char character; 
     int i; 
     int numChar; 
@@ -22,7 +22,8 @@ public class Review7 {
     int letterA = 0;
 
     //user inputs sentence 
-    System.out.println("Enter a sentence: ");
+    //System.out.println("Enter a sentence: ");
+    System.out.print("");
     theSentence = key.readLine();
 
     //finds the length/number of characters in the sentence
@@ -39,7 +40,7 @@ public class Review7 {
       }
 
       //finds number of letter a's in the sentence
-      if (character == 'a') {
+      else if (character == 'a') {
         letterA++;
       }
     }
@@ -49,13 +50,11 @@ public class Review7 {
     System.out.println("There are "+letterA+" letter a in the sentence.");
 
     //takes every other character in the sentence to print a new one 
-    //for(i = 1; i < numChar; i = i + 2){
-      //character = theSentence.charAt(i);
-      //System.out.print(character);
+    for(i = 0; i < numChar; i = i + 2){
+      character = theSentence.charAt(i);
+      System.out.print("-");
 
-      System.out.println("----");
-
-    //}
+    }
 
   }
 }
