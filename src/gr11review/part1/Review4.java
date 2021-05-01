@@ -28,7 +28,7 @@ public class Review4 {
 
     //loops until the number of items is hit 
     //adds the price of the item to the subtotal 
-    for(i = 1; i <= numItems; i++){
+    for (i = 1; i <= numItems; i++) {
       System.out.print("Enter the price for item "+i+": ");
       itemPrice = Double.parseDouble(key.readLine());
 

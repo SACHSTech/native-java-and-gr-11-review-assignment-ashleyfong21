@@ -16,7 +16,7 @@ public class Review3 {
     int i; 
     
     //prints all odd numbers from 20 to 100
-    for(i = 21; i <= 100; i = i + 2){
+    for (i = 21; i <= 100; i = i + 2) {
       System.out.println(i);
 
     }

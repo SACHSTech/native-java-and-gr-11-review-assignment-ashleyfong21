@@ -23,7 +23,7 @@ public class Review6 {
 
     //loops while the input is not 0
     //add the prive of the item to the subtotal 
-    while(itemPrice != 0){
+    while (itemPrice != 0) {
         i++;
         System.out.print("Enter the price for an item: ");
         itemPrice = Double.parseDouble(key.readLine());

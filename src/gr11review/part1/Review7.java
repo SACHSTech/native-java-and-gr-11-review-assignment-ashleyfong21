@@ -34,12 +34,12 @@ public class Review7 {
       character = theSentence.charAt(i);
       
       //finds number of spaces in the sentence 
-      if(character == ' '){
+      if (character == ' ') {
         numSpaces++;
       }
 
       //finds number of letter a's in the sentence
-      if(character == 'a'){
+      if (character == 'a') {
         letterA++;
       }
     }

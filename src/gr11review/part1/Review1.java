@@ -24,7 +24,7 @@ public class Review1 {
     System.out.print("Enter the day number: ");
     dayNum = Integer.parseInt(key.readLine());
 
-    //prints the day of the year based on the month that is picked
+    //prints the day of the year based on the month and day number that is picked
     if (monthNum == 1) {
       dayYear = 0 + dayNum; 
       System.out.println(dayYear); 

@@ -23,8 +23,8 @@ public class Review8 {
     slotMach = new int[1000][3];
 
     //randomizing slot numbers and loading them in the array 
-    for (i = 0; i < 1000; i++){
-      for(c = 0; c < 3; c++){
+    for (i = 0; i < 1000; i++) {
+      for (c = 0; c < 3; c++) {
         random = (int)(Math.random()*9);
         slotMach[i][c] = random;
         System.out.print(slotMach[i][c]+" ");
@@ -34,7 +34,7 @@ public class Review8 {
 
       //checking if all the numbers in a pull are the same
       //if yes, the number of triples increases
-      if(slotMach[i][0] == slotMach[i][1] && slotMach[i][1] == slotMach[i][2]){
+      if (slotMach[i][0] == slotMach[i][1] && slotMach[i][1] == slotMach[i][2]) {
         numTriples++;
       }
     }
