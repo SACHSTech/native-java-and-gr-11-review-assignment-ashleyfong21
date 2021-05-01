@@ -48,7 +48,7 @@ public class Review7 {
     System.out.println("There are "+letterA+" letter a in the sentence.");
 
     //prints a dash in replacement for every other letter of the sentence
-    for (i = 0; i < numChar; i = i + 2 ) {
+    for (i = 0; i < numChar; i = i + 2) {
       character = theSentence.charAt(i);
       System.out.print("-");
     }
